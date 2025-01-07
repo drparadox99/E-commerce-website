@@ -1,0 +1,89 @@
+*{
+  margin: 0px;
+  padding: 0px;}
+
+body{
+
+  background-image: url("../img/woods.jpg");
+  /*background-color: rgba(40,10,10,0.4);*/
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: new time roman;
+  }
+
+p{
+  font-size:17px;
+  color:white;
+}
+
+.col-md-6{
+  box-shadow: 1px 1px 60px 10px black;
+  border-radius: 10px;
+  background: rgba(40,10,10,0.4);
+}
+#info_perso{
+  margin-top: 90px;
+  height: 550px;
+}
+
+h3{
+  font-size:40px;
+  color:black;
+  margin-top: 15px;
+  text-shadow: 0 0.5px 0 #eee,
+               0 1px 0 #e5e5e5,
+               -1px 2px 0 #C8C8C8,
+               -1px 3px 0 #C1C1C1,
+               -1px 4px 0 #B9B9B9,
+               -1px 5px 0 #B2B2B2,
+               -1px 5px 1px rgba(0,0,0, 0.6),
+               -1px 5px 6px rgba(0,0,0, 0.2),
+               -1px 5px 35px rgba(0,0,0, 0.4);
+}
+.fa-pencil-alt{
+  font-size: 35px;
+  color: white;
+  float: right;
+  margin-top:15px;
+}
+
+.label{
+  font-weight: normal;
+  margin-top: 22px;
+  color:white;
+  font-size:18px;
+}
+.form-control{
+  background:transparent;
+  border-radius: 5px;
+  border: 0px;
+  border-bottom: 1px solid white;
+  font-size: 18px;
+  margin-top: 15px;
+  height: 40px;
+  color:white;
+}
+#submit_enregister{
+  margin-top: 20px;
+}
+
+#message_textarea{
+  margin-top: 13px;
+  border-radius: 10px;
+}
+#img_profil{
+  margin-top: 23px;
+}
+#upfile1{
+  margin-top: 23px;
+  font-size: 60px;
+  color: white;
+
+}
+.fas{
+  font-size: 23px;
+  color: white;
+  float: right;
+  margin-top:23px;
+
+}
